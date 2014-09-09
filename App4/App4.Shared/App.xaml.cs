@@ -37,6 +37,7 @@ namespace App4
         {
             this.InitializeComponent();
             this.Suspending += this.OnSuspending;
+            System.Diagnostics.Debug.WriteLine("hcsi");
         }
 
         /// <summary>
